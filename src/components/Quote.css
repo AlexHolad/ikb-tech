@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+.quote-container {
+    width: 100%;
+}
+
+.quote-container p {
+    background-color: #293345;
+    color:aliceblue;
+    font-family: 'Trocchi', serif;
+    padding: 10vw 22vw;
+}
+
+@media screen and (max-width: 768px) {
+    .quote-container p {
+        padding: 10vw 8vw;
+    }
+}
+
+

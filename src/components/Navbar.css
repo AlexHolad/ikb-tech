@@ -1,0 +1,155 @@
+.navbar {
+  height: 60px;
+  background-color: aliceblue;
+  position: relative;
+}
+
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  background-color: #293345;
+  padding: 0.3rem 0.2rem 0.3rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.brand-name {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.nav-elements {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding-top: 0.3rem;
+  align-items: center;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-elements ul li p {
+  font-size: calc(10px + 0.390625vw);
+  font-weight: 400;
+  cursor: pointer;
+  color: #758D97;
+  text-decoration: none;
+}
+
+.nav-elements ul p.active {
+  color: #574c4c;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul p.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+/* Hover underline animation */
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 2%;
+  background-color: #758D97;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+img {
+  height: calc(15px + .390625vw);
+  width: auto;
+  cursor: pointer;
+}
+
+.menu-icon-container {
+  display: none;
+}
+
+
+@media (max-width: 750px) {
+  .menu-icon-container {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-icon {
+    height: auto;
+    width: 30px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    right: 0;
+    top: 60px;
+    background-color: aliceblue;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 180px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+  }
+}
