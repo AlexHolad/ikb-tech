@@ -140,6 +140,7 @@ img {
 
   .nav-elements.active {
     width: 180px;
+    z-index: 999;
   }
 
   .nav-elements ul {

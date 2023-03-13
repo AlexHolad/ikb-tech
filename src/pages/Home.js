@@ -5,6 +5,8 @@ import './Home.css'
 import Navbar from '../components/Navbar'
 import Quote from '../components/Quote'
 
+import Main from '../components/Main'
+
 
 const Home = ({data}) => {
     const handleClickScroll = (section) => {
@@ -18,7 +20,7 @@ const Home = ({data}) => {
     return (
         <div className='home-container'>
             <Navbar nav={data.nav} handleClickScroll={handleClickScroll}/>
-            <div>Main</div>
+            <Main main={data.sectionMain}/>
             <Quote text= {data.sectionLeistungen.quote}/>
             <div id="leistungen">Leistungen</div>
             <Quote text= {data.sectionKunden.quote}/>
