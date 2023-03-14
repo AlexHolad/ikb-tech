@@ -2,9 +2,9 @@ import React from 'react'
 
 import './Quote.css'
 
-const Quote = ({text, id}) => {
+const Quote = ({text}) => {
     return (
-        <div className='quote-container' id={id}>
+        <div className='quote-container'>
             <p>{text}</p>
         </div>
     )

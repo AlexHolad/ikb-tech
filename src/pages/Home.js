@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Quote from '../components/Quote'
 
 import Main from '../components/Main'
+import Zahlen from '../components/Zahlen'
 
 
 const Home = ({data}) => {
@@ -29,7 +30,7 @@ const Home = ({data}) => {
             <div id='schwerpunkte'>Schwerpunkte</div>
             <Quote text= {data.sectionProgrammen.quote}/>
             <div id='programmen'>Programmen</div>
-            <div>Zahlen</div>
+            <Zahlen zahlen={data.zahlen}/>
             <div id='kontakt'>Kontakt</div>
             <Quote text= {data.sectionKarriere.quote}/>
             <div id='karriere'>Karriere</div>
