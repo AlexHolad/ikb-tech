@@ -7,6 +7,7 @@ import Quote from '../components/Quote'
 
 import Main from '../components/Main'
 import Zahlen from '../components/Zahlen'
+import Leistungen from '../components/Leistungen'
 
 
 const Home = ({data}) => {
@@ -23,7 +24,7 @@ const Home = ({data}) => {
             <Navbar nav={data.nav} handleClickScroll={handleClickScroll}/>
             <Main main={data.sectionMain}/>
             <Quote text= {data.sectionLeistungen.quote}/>
-            <div id="leistungen">Leistungen</div>
+            <Leistungen leistungen={data.sectionLeistungen} id="leistungen">Leistungen</Leistungen>
             <Quote text= {data.sectionKunden.quote}/>
             <div id='kunden'>Kunden</div>
             <Quote text= {data.sectionSchwerpunkte.quote}/>

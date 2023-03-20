@@ -1,0 +1,52 @@
+.leistungen-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.leistunen-icons-container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 5vw 2vw;
+}
+
+.leistunen-text-container {
+    width: 50%;
+    height: 100vh;
+}
+
+
+@media (max-width: 1155px) {
+    .leistungen-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    
+    .leistunen-icons-container{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        padding: 5vw 2vw;
+    }
+    
+    .leistunen-text-container {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 525px) {
+    .leistunen-icons-container {
+        margin-bottom: 10%;
+    }
+}

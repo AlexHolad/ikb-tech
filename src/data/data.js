@@ -27,47 +27,47 @@ export const data = {
     services: [
       {
         title: "Marktforschung",
-        icon: "",
+        icon: "/assets/icons/leistungen/paid-search.png",
       },
       {
         title: "Marktanalyse",
-        icon: "",
+        icon: "/assets/icons/leistungen/statistics.png",
       },
       {
         title: "Vermarktung",
-        icon: "",
+        icon: "/assets/icons/leistungen/sellsy.png",
       },
       {
         title: "Konzepterstellung",
-        icon: "",
+        icon: "/assets/icons/leistungen/imac-settings.png",
       },
       {
         title: "Projektplanung",
-        icon: "",
+        icon: "/assets/icons/leistungen/construction-carpenter-ruler.png",
       },
       {
         title: "Entwicklung",
-        icon: "",
+        icon: "/assets/icons/leistungen/project-management.png",
       },
       {
         title: "Konstruktion",
-        icon: "",
+        icon: "/assets/icons/leistungen/room-finder.png",
       },
       {
         title: "Simulation",
-        icon: "",
+        icon: "/assets/icons/leistungen/solidworks-flow-simulation.png",
       },
       {
         title: "Berechnung",
-        icon: "",
+        icon: "/assets/icons/leistungen/sun-elevation.png",
       },
       {
         title: "Prototypenbau",
-        icon: "",
+        icon: "/assets/icons/leistungen/3d-printer.png",
       },
       {
         title: "Dokumentation",
-        icon: "",
+        icon: "/assets/icons/leistungen/course-assign.png",
       },
     ],
   },

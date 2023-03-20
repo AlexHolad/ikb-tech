@@ -5,11 +5,11 @@ import Zahlblock from "./Zahlblock";
 
 function Zahlen({ zahlen }) {
   return (
-    <div className="zahlen-container">
+    <section className="zahlen-container">
       {zahlen.map((zahlblock) => {
         return <Zahlblock zahlblock={zahlblock} key={zahlblock.category} />;
       })}
-    </div>
+    </section>
   );
 }
 
