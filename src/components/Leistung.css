@@ -17,8 +17,15 @@
 
 .leistung-title {
     padding-left: 6px;
+    color: #293345;
 }
 
+
+@media (max-width: 1155px) {
+    .leistung-title {
+        padding-left: 20px;
+    }
+}
 
 @media (max-width: 525px) {
     .leistung-container {

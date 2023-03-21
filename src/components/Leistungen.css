@@ -14,11 +14,6 @@
     padding: 5vw 2vw;
 }
 
-.leistunen-text-container {
-    width: 50%;
-    height: 100vh;
-}
-
 
 @media (max-width: 1155px) {
     .leistungen-section {
@@ -36,12 +31,7 @@
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
-        padding: 5vw 2vw;
-    }
-    
-    .leistunen-text-container {
-        width: 100%;
-        height: fit-content;
+        padding: 5vw 2vw 10vw 2vw;
     }
 }
 

@@ -2,12 +2,16 @@ import React from 'react'
 
 import "./Leistungen.css"
 
+import Description from './Description';
+
 import Leistung from "./Leistung"
 
-function Leistungen({leistungen}) {
+
+
+function Leistungen({leistungen, id}) {
     const {category, headline, text, services} = leistungen;
   return (
-    <section className='leistungen-section'>
+    <section className='leistungen-section' id={id}>
         <div className='leistunen-icons-container'>
             {services.map((service)=> {
                 return (
@@ -15,11 +19,7 @@ function Leistungen({leistungen}) {
                 )
             })}
         </div>
-        <div className='leistunen-text-container'>
-            <div>{category}</div>
-            <div>{headline}</div>
-            <p>{text}</p>
-        </div>
+        <Description category={category} headline={headline} text={text}/>
     </section>
   )
 }

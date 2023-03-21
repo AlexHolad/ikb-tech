@@ -77,6 +77,44 @@ export const data = {
     category: "Referenzen",
     headline: "Weitere Kunde die uns vertrauen",
     text: "Mauris porta odio nisi, ut ultrices ligula venenatis quis. Quisque a ligula eu ex scelerisque eleifend ut sed risus. Mauris cursus non orci sed aliquet. Maecenas ipsum urna, pulvinar quis lacus sit amet, tempor pharetra diam.",
+    kundenLogos: [
+      {
+        title: "maserati",
+        logo: "/assets/logos/kunden/maserati-logo.svg",
+      },
+      {
+        title: "cpm",
+        logo: "/assets/logos/kunden/cpm-logo.svg",
+      },
+      {
+        title: "audi",
+        logo: "/assets/logos/kunden/audi-logo.svg",
+      },
+      {
+        title: "volkswagen",
+        logo: "/assets/logos/kunden/volkswagen-logo.svg",
+      },
+      {
+        title: "zf",
+        logo: "/assets/logos/kunden/zf-logo.png",
+      },
+      {
+        title: "general-motors",
+        logo: "/assets/logos/kunden/general-motors-logo.png",
+      },
+      {
+        title: "nordex",
+        logo: "/assets/logos/kunden/nordex-logo.svg",
+      },
+      {
+        title: "porsche",
+        logo: "/assets/logos/kunden/porsche-logo.svg",
+      },
+      {
+        title: "bmw",
+        logo: "/assets/logos/kunden/bmw-logo.svg",
+      },
+    ]
   },
   sectionSchwerpunkte: {
     quote: "AUSFÜLLEN",
