@@ -118,54 +118,54 @@ export const data = {
   },
   sectionSchwerpunkte: {
     quote: "AUSFÜLLEN",
-    schwerpunkte: [
+    schwerpunkteList: [
       {
         img: "/assets/images/mike-hindle-urTBnMtWWYc-unsplash.jpg",
         attr: "mike-hindle-urTBnMtWWYc-unsplash",
         services:
-          ("Allgemeiner",
+          ["Allgemeiner",
           "Maschinenbau",
           "Sondermaschinen",
-          "Betriebsmittelbau"),
-      },
-      {
-        img: "/assets/images/.jpg",
-        attr: "artur-voznenko-lPvI0S403Mg-unsplash",
-        services: "Flugzeugbau",
+          "Betriebsmittelbau"],
       },
       {
         img: "/assets/images/artur-voznenko-lPvI0S403Mg-unsplash.jpg",
-        attr: "logan-weaver-lgnwvr-u4vvzLElyF0-unsplash",
-        services:
-          ("Automobilbau",
-          "Sonderfahrzeugbau",
-          "Schienentechnik",
-          "Nutzfahrzeugtechnik"),
+        attr: "artur-voznenko-lPvI0S403Mg-unsplash",
+        services: ["Flugzeugbau"],
       },
       {
-        img: "/assets/images/ika-baumeister-ufEolQ65luE-unsplash.jpg",
+        img: "/assets/images/logan-weaver-lgnwvr-u4vvzLElyF0-unsplash.jpg",
+        attr: "logan-weaver-lgnwvr-u4vvzLElyF0-unsplash",
+        services:
+          ["Automobilbau",
+          "Sonderfahrzeugbau",
+          "Schienentechnik",
+          "Nutzfahrzeugtechnik"],
+      },
+      {
+        img: "/assets/images/mika-baumeister-ufEolQ65luE-unsplash.jpg",
         attr: "mika-baumeister-ufEolQ65luE-unsplash",
-        services: ("Radfahrzeuge", "Kettenfahrzeuge"),
+        services: ["Radfahrzeuge", "Kettenfahrzeuge"],
       },
       {
         img: "/assets/images/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg",
         attr: "cesar-carlevarino-aragon-NL_DF0Klepc-unsplash",
-        services: ("Formenbau", "Werkzeugbau", "Vorrichtungsbau"),
+        services: ["Formenbau", "Werkzeugbau", "Vorrichtungsbau"],
       },
       {
         img: "/assets/images/vladislav-glukhotko-RBwk0EcQ1bs-unsplash.jpg",
         attr: "vladislav-glukhotko-RBwk0EcQ1bs-unsplash",
-        services: ("Stahlbau", "Anlagenbau"),
+        services: ["Stahlbau", "Anlagenbau"],
       },
       {
         img: "/assets/images/rob-lambert-9Q_pLLP_jmA-unsplash.jpg",
         attr: "rob-lambert-9Q_pLLP_jmA-unsplash",
-        services: ("Lötten", "Schweissen"),
+        services: ["Lötten", "Schweissen"],
       },
       {
         img: "/assets/images/crystal-kwok-xD5SWy7hMbw-unsplash.jpg",
         attr: "crystal-kwok-xD5SWy7hMbw-unsplash",
-        services: ("Messsysteme", "Prüfsysteme", "Kontrollsysteme"),
+        services: ["Messsysteme", "Prüfsysteme", "Kontrollsysteme"],
       },
     ],
   },
@@ -175,11 +175,11 @@ export const data = {
     category: "Programmen",
     headline: "Wir arbeiten mit moderner CAD-Software",
     text:
-      ("Pro/Engineer Wildfiere 2/3/4",
+      ["Pro/Engineer Wildfiere 2/3/4",
       "CATIA V4/V5",
       "SolidWorks",
       "Solid Edge",
-      "AutoCAD"),
+      "AutoCAD"],
     programmsLogos: [
       {
         logo: "/assets/logos/soft/catia.svg",

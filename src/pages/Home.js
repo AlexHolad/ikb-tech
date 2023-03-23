@@ -9,6 +9,7 @@ import Main from '../components/Main'
 import Zahlen from '../components/Zahlen'
 import Leistungen from '../components/Leistungen'
 import Kunden from '../components/Kunden'
+import Schwerpunkte from '../components/Schwerpunkte'
 
 
 const Home = ({data}) => {
@@ -28,8 +29,7 @@ const Home = ({data}) => {
             <Leistungen leistungen={data.sectionLeistungen} id="leistungen">Leistungen</Leistungen>
             <Quote text= {data.sectionKunden.quote}/>
             <Kunden kunden={data.sectionKunden} id='kunden'/>
-            <Quote text= {data.sectionSchwerpunkte.quote}/>
-            <div id='schwerpunkte'>Schwerpunkte</div>
+            <Schwerpunkte schwerpunkte={data.sectionSchwerpunkte} id='schwerpunkte'/>
             <Quote text= {data.sectionProgrammen.quote}/>
             <div id='programmen'>Programmen</div>
             <Zahlen zahlen={data.zahlen}/>

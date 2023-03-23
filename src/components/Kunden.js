@@ -12,8 +12,8 @@ function Kunden({ kunden, id }) {
       <div className="kunden-logos-container">
         {kundenLogos.map((logo) => {
           return (
-            <div className="logo-container">
-              <img src={logo.logo} alt={logo.title} />
+            <div className="logo-container" key={logo.title}>
+              <img src={logo.logo} alt={logo.title}/>
             </div>
           );
         })}

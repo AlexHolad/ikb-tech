@@ -15,7 +15,7 @@ function Leistungen({leistungen, id}) {
         <div className='leistunen-icons-container'>
             {services.map((service)=> {
                 return (
-                    <Leistung icon={service.icon} title={service.title}/>
+                    <Leistung icon={service.icon} title={service.title} key={service.title}/>
                 )
             })}
         </div>
