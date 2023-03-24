@@ -25,10 +25,15 @@
     text-align: left;
 }
 
+
 .section-message {
+    display: flex;
+    flex-direction: column;
     width: auto;
     color: #293345;
     text-align: left;
+    list-style: none;
+    gap: 5px;
 }
 
 

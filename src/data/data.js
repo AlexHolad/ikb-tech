@@ -114,7 +114,7 @@ export const data = {
         title: "bmw",
         logo: "/assets/logos/kunden/bmw-logo.svg",
       },
-    ]
+    ],
   },
   sectionSchwerpunkte: {
     quote: "AUSFÜLLEN",
@@ -122,11 +122,12 @@ export const data = {
       {
         img: "/assets/images/mike-hindle-urTBnMtWWYc-unsplash.jpg",
         attr: "mike-hindle-urTBnMtWWYc-unsplash",
-        services:
-          ["Allgemeiner",
+        services: [
+          "Allgemeiner",
           "Maschinenbau",
           "Sondermaschinen",
-          "Betriebsmittelbau"],
+          "Betriebsmittelbau",
+        ],
       },
       {
         img: "/assets/images/artur-voznenko-lPvI0S403Mg-unsplash.jpg",
@@ -136,11 +137,12 @@ export const data = {
       {
         img: "/assets/images/logan-weaver-lgnwvr-u4vvzLElyF0-unsplash.jpg",
         attr: "logan-weaver-lgnwvr-u4vvzLElyF0-unsplash",
-        services:
-          ["Automobilbau",
+        services: [
+          "Automobilbau",
           "Sonderfahrzeugbau",
           "Schienentechnik",
-          "Nutzfahrzeugtechnik"],
+          "Nutzfahrzeugtechnik",
+        ],
       },
       {
         img: "/assets/images/mika-baumeister-ufEolQ65luE-unsplash.jpg",
@@ -173,13 +175,14 @@ export const data = {
     quote:
       "“Die mehrjährigen Erfahrungen unsere Mitarbeiter im Bereich Ingenieurwesen mit modernen CAD-Programmen und leistungsfähige Software-Tools bilden die Grundlage für unsere innovativen Entwicklungs- und Konstruktionsprozesse.”",
     category: "Programmen",
-    headline: "Wir arbeiten mit moderner CAD-Software",
-    text:
-      ["Pro/Engineer Wildfiere 2/3/4",
+    headline: "Wir arbeiten mit moderne CAD Software",
+    text: [
+      "Pro/Engineer Wildfiere 2/3/4",
       "CATIA V4/V5",
       "SolidWorks",
       "Solid Edge",
-      "AutoCAD"],
+      "AutoCAD",
+    ],
     programmsLogos: [
       {
         logo: "/assets/logos/soft/catia.svg",
