@@ -29,7 +29,6 @@
     }
 
     .karriere-img {
-        float: center;
         width: 90vw;
         height: 50vh;
         object-fit: cover;
@@ -38,5 +37,3 @@
 
 
 }
-
-@media (max-width: 525px) {}

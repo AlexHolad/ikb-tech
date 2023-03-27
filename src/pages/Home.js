@@ -11,7 +11,7 @@ import Leistungen from '../components/Leistungen'
 import Kunden from '../components/Kunden'
 import Schwerpunkte from '../components/Schwerpunkte'
 import Programmen from '../components/Programmen'
-
+import Kontakt from '../components/Kontakt'
 import Karriere from '../components/Karriere'
 
 
@@ -36,7 +36,7 @@ const Home = ({data}) => {
             <Quote text= {data.sectionProgrammen.quote}/>
             <Programmen programmen={data.sectionProgrammen} id='programmen'/>
             <Zahlen zahlen={data.zahlen}/>
-            <div id='kontakt'>Kontakt</div>
+            <Kontakt kontakt={data.sectionKontakt} id='kontakt'/>
             <Quote text= {data.sectionKarriere.quote}/>
             <Karriere karriere={data.sectionKarriere} handleClickScroll={handleClickScroll} id='karriere'/>
             <div>Footer</div>

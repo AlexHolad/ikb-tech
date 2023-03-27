@@ -242,23 +242,25 @@ export const data = {
       "Wir würden uns freuen Sie von den Vorteilen der IKB TECH zu überzeugen und freuen uns von Ihnen zu hören",
     contactTypes: [
       {
-        icon: "",
-        attr: "",
-        text: "",
+        icon: "/assets/icons/phone.png",
+        attr: "phone",
+        text: "+4901629334162",
       },
       {
-        icon: "",
-        attr: "",
-        text: "",
+        icon: "/assets/icons/email.png",
+        attr: "email",
+        text: "alex878@gmail.com",
       },
       {
-        icon: "",
-        attr: "",
-        text: "",
+        icon: "/assets/icons/post.png",
+        attr: "post",
+        text: "Angerlohstr. 55, 80997 München",
       },
     ],
-    proposal: "",
-    linkId: "",
+    img: {
+      src:"/assets/images/marissa-grootes-xhb7s-Q-ECA-unsplash.jpg",
+      alt:"marissa-grootes-xhb7s-Q-ECA-unsplash",
+    }
   },
   sectionKarriere: {
     quote:
