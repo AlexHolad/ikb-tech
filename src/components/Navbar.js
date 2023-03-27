@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 import "./Navbar.css";
 
-export default function Navbar({ nav, handleClickScroll, route, setRoute }) {
+export default function Navbar({ nav, handleClickScroll}) {
   const [showNavbar, setShowNavbar] = useState(false)
 
   const handleShowNavbar = () => {

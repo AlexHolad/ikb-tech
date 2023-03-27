@@ -6,7 +6,7 @@ export const data = {
       phone: "+4901629334162",
       phoneIcon: "/assets/icons/phone.svg",
       email: "alex878@gmail.com",
-      emailIcon: "/assets/icons/email.svg",
+      emailIcon: "/assets/icons/contact.svg",
     },
     menuIcon: "/assets/icons/menu.svg",
     closeIcon: "/assets/icons/close.svg",
@@ -70,6 +70,8 @@ export const data = {
         icon: "/assets/icons/leistungen/course-assign.png",
       },
     ],
+    proposal: "",
+    linkId: "",
   },
   sectionKunden: {
     quote:
@@ -115,6 +117,8 @@ export const data = {
         logo: "/assets/logos/kunden/bmw-logo.svg",
       },
     ],
+    proposal: "",
+    linkId: "",
   },
   sectionSchwerpunkte: {
     quote: "AUSFÜLLEN",
@@ -170,6 +174,8 @@ export const data = {
         services: ["Messsysteme", "Prüfsysteme", "Kontrollsysteme"],
       },
     ],
+    proposal: "",
+    linkId: "",
   },
   sectionProgrammen: {
     quote:
@@ -205,6 +211,8 @@ export const data = {
         attr: "autocad-logo",
       },
     ],
+    proposal: "",
+    linkId: "",
   },
   zahlen: [
     {
@@ -229,28 +237,6 @@ export const data = {
     },
   ],
   sectionKontakt: {
-    numbers: [
-      {
-        number: "",
-        category: "",
-        description: "",
-      },
-      {
-        number: "",
-        category: "",
-        description: "",
-      },
-      {
-        number: "",
-        category: "",
-        description: "",
-      },
-      {
-        number: "",
-        category: "",
-        description: "",
-      },
-    ],
     category: "Kontakt",
     headline:
       "Wir würden uns freuen Sie von den Vorteilen der IKB TECH zu überzeugen und freuen uns von Ihnen zu hören",
@@ -271,11 +257,21 @@ export const data = {
         text: "",
       },
     ],
+    proposal: "",
+    linkId: "",
   },
   sectionKarriere: {
     quote:
       "“Unseren Mitarbeitern bieten wir eine Unternehmenskultur die nicht einengt. Bei uns finden Sie Raum zur Entfaltung von unterschiedlichen Charakteren.”",
+    img: {
+      src: "/assets/images/thisisengineering-raeng-aL2rxQhEfAM-unsplash.jpg",
+      alt: "thisisengineering-raeng-aL2rxQhEfAM-unsplash",
+    },
     category: "Karriere",
+    headline: "Gemeinsam gestalten die Zukunft ",
+    text: "Die IKB-TECH Ingenieurgesellschaft bietet Ihnen die Möglichkeit, Ihre Erfahrungen und Ideen einzubringen und weiterzuentfalten. Wir ermöglichen jungen Talenten den Berufseinstieg mit einer individuellen Einarbeitung.",
+    proposal: "Bewerben Sie sich",
+    linkId: "kontakt",
   },
   footer: {},
 };

@@ -12,6 +12,8 @@ import Kunden from '../components/Kunden'
 import Schwerpunkte from '../components/Schwerpunkte'
 import Programmen from '../components/Programmen'
 
+import Karriere from '../components/Karriere'
+
 
 const Home = ({data}) => {
     const handleClickScroll = (section) => {
@@ -36,7 +38,7 @@ const Home = ({data}) => {
             <Zahlen zahlen={data.zahlen}/>
             <div id='kontakt'>Kontakt</div>
             <Quote text= {data.sectionKarriere.quote}/>
-            <div id='karriere'>Karriere</div>
+            <Karriere karriere={data.sectionKarriere} handleClickScroll={handleClickScroll} id='karriere'/>
             <div>Footer</div>
         </div>
     )

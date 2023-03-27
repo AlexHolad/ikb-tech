@@ -1,0 +1,42 @@
+.karriere-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.karriere-img-container {
+    width: 50vw;
+    height: 100vh;
+}
+
+
+.karriere-img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1155px) {
+    .karriere-section {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .karriere-img-container {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .karriere-img {
+        float: center;
+        width: 90vw;
+        height: 50vh;
+        object-fit: cover;
+
+    }
+
+
+}
+
+@media (max-width: 525px) {}
