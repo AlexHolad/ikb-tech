@@ -14,6 +14,8 @@ import Programmen from '../components/Programmen'
 import Kontakt from '../components/Kontakt'
 import Karriere from '../components/Karriere'
 
+import Footer from '../components/Footer'
+
 
 const Home = ({data}) => {
     const handleClickScroll = (section) => {
@@ -39,7 +41,7 @@ const Home = ({data}) => {
             <Kontakt kontakt={data.sectionKontakt} id='kontakt'/>
             <Quote text= {data.sectionKarriere.quote}/>
             <Karriere karriere={data.sectionKarriere} handleClickScroll={handleClickScroll} id='karriere'/>
-            <div>Footer</div>
+            <Footer footer={data.sectionFooter}/>
         </div>
     )
 }

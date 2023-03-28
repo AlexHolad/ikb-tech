@@ -1,0 +1,7 @@
+.datenschutz-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding: 40px 50px;
+}

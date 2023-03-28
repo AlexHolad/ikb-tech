@@ -34,3 +34,36 @@ p {
   user-select: none;
   /* Standard syntax */
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 2%;
+  background-color: #758D97;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:visited {
+  color: #758D97;
+}

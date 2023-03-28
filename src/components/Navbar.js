@@ -29,7 +29,7 @@ export default function Navbar({ nav, handleClickScroll}) {
               </li>
             );
           })}
-          <li onClick={handleShowNavbar}><img onClick={() => handleClickScroll('kontakt')} src={nav.contact.emailIcon} alt="Mail uns" className="navIcon" /></li>
+          <li onClick={handleShowNavbar}><img onClick={() => handleClickScroll('kontakt')} src={nav.contact.contactIcon} alt="Mail uns" className="navIcon" /></li>
         </ul>
       </div>
       <div onClick={handleShowNavbar} className="menu-icon-container"><img src={!showNavbar ? nav.menuIcon : nav.closeIcon} alt="Hamburger" className="menu-icon"/></div>

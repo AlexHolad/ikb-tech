@@ -3,10 +3,7 @@ export const data = {
     logo: "ikb tech",
     navList: ["Leistungen", "Kunden", "Schwerpunkte", "Karriere"],
     contact: {
-      phone: "+4901629334162",
-      phoneIcon: "/assets/icons/phone.svg",
-      email: "alex878@gmail.com",
-      emailIcon: "/assets/icons/contact.svg",
+      contactIcon: "/assets/icons/contact.svg",
     },
     menuIcon: "/assets/icons/menu.svg",
     closeIcon: "/assets/icons/close.svg",
@@ -244,7 +241,7 @@ export const data = {
       {
         icon: "/assets/icons/phone.png",
         attr: "phone",
-        text: "+4901629334162",
+        text: "(+49)01629334162",
       },
       {
         icon: "/assets/icons/email.png",
@@ -258,9 +255,9 @@ export const data = {
       },
     ],
     img: {
-      src:"/assets/images/marissa-grootes-xhb7s-Q-ECA-unsplash.jpg",
-      alt:"marissa-grootes-xhb7s-Q-ECA-unsplash",
-    }
+      src: "/assets/images/marissa-grootes-xhb7s-Q-ECA-unsplash.jpg",
+      alt: "marissa-grootes-xhb7s-Q-ECA-unsplash",
+    },
   },
   sectionKarriere: {
     quote:
@@ -275,5 +272,63 @@ export const data = {
     proposal: "Bewerben Sie sich",
     linkId: "kontakt",
   },
-  footer: {},
+  sectionFooter: {
+    blocksInformation: [
+      {
+        headline: "Adresse",
+        elList: [
+          {
+            icon: "/assets/icons/address.png",
+            alt: "address-icon",
+            text: "IKB-TECH Eisnergutbogen Str.35 80639 München",
+          },
+        ],
+      },
+      {
+        headline: "Telefonnummer",
+        elList: [
+          {
+            icon: "/assets/icons/phone.png",
+            alt: "phone-icon",
+            text: "089-88905832",
+          },
+        ],
+      },
+      {
+        headline: "Email",
+        elList: [
+          {
+            icon: "/assets/icons/email.png",
+            alt: "email-icon",
+            text: "ikb-tech@gmail.com",
+          },
+        ],
+      },
+      {
+        headline: "Rechtsinformation",
+        elList: [
+          {
+            icon: "/assets/icons/section.png",
+            alt: "impressum",
+            text: "Impressum",
+            link: "/impressum",
+          },
+          {
+            icon: "/assets/icons/section.png",
+            alt: "datenschutz",
+            text: "Datenschutz",
+            link: "/datenschutz",
+          },
+          {
+            icon: "/assets/icons/section.png",
+            alt: "bilder-lizenz",
+            text: "Bilder Lizenz",
+            link: "/bilder-lizenz",
+          },
+        ],
+      },
+    ],
+    copyright: "© 2023 IKB-TECH  ALLE RECHTE VORBEHALTEN",
+  },
+  
 };
