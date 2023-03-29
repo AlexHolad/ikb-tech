@@ -20,7 +20,8 @@ export const data = {
       "“IKB-TECH ist eine innovative Ingenieurdienstleistungsgesellschaft und ein zuverlässiger Partner im High-Tech-Umfeld mit Kundschaft aus verschiedenen Branchen der Großindustrie und dem Mittelstand.”",
     category: "Leistungen",
     headline: "Von der Idee zum Produkt",
-    text: "Unser Team bietet in enger Absprache mit unseren Kunden vielseitige Leistungen, die alle Prozessschritte begleiten - von der innovativen Idee bis hin zum fertigen Produkt.",
+    text:
+      "Unser Team bietet in enger Absprache mit unseren Kunden vielseitige Leistungen, die alle Prozessschritte begleiten - von der innovativen Idee bis hin zum fertigen Produkt.",
     services: [
       {
         title: "Marktforschung",
@@ -75,7 +76,8 @@ export const data = {
       "“Kundenzufriedenheit steht auf dem Ersten Platz in unserer Unternehmensphilosophie und bildet die Basis für eine langfristige und erfolgreiche Zusammenarbeit mit unseren Kunden.”",
     category: "Referenzen",
     headline: "Weitere Kunde die uns vertrauen",
-    text: "Mauris porta odio nisi, ut ultrices ligula venenatis quis. Quisque a ligula eu ex scelerisque eleifend ut sed risus. Mauris cursus non orci sed aliquet. Maecenas ipsum urna, pulvinar quis lacus sit amet, tempor pharetra diam.",
+    text:
+      "Mauris porta odio nisi, ut ultrices ligula venenatis quis. Quisque a ligula eu ex scelerisque eleifend ut sed risus. Mauris cursus non orci sed aliquet. Maecenas ipsum urna, pulvinar quis lacus sit amet, tempor pharetra diam.",
     kundenLogos: [
       {
         title: "maserati",
@@ -268,7 +270,8 @@ export const data = {
     },
     category: "Karriere",
     headline: "Gemeinsam gestalten die Zukunft ",
-    text: "Die IKB-TECH Ingenieurgesellschaft bietet Ihnen die Möglichkeit, Ihre Erfahrungen und Ideen einzubringen und weiterzuentfalten. Wir ermöglichen jungen Talenten den Berufseinstieg mit einer individuellen Einarbeitung.",
+    text:
+      "Die IKB-TECH Ingenieurgesellschaft bietet Ihnen die Möglichkeit, Ihre Erfahrungen und Ideen einzubringen und weiterzuentfalten. Wir ermöglichen jungen Talenten den Berufseinstieg mit einer individuellen Einarbeitung.",
     proposal: "Bewerben Sie sich",
     linkId: "kontakt",
   },
@@ -330,5 +333,90 @@ export const data = {
     ],
     copyright: "© 2023 IKB-TECH  ALLE RECHTE VORBEHALTEN",
   },
-  
 };
+
+export const imagesList = [
+  {
+    src: "/assets/images/thisisengineering-raeng-3Z3gnA99PL8-unsplash.jpg",
+    alt: "thisisengineering-raeng-3Z3gnA99PL8-unsplash",
+    author: "ThisisEngineering RAEng",
+    authorLink:
+      "https://unsplash.com/fr/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink:
+      "https://unsplash.com/photos/3Z3gnA99PL8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/marissa-grootes-xhb7s-Q-ECA-unsplash.jpg",
+    alt: "marissa-grootes-xhb7s-Q-ECA-unsplash",
+    author: "Marissa Grootes",
+    authorLink:
+      "https://unsplash.com/@stilclassis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink:
+      "https://unsplash.com/photos/xhb7s-Q-ECA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/thisisengineering-raeng-aL2rxQhEfAM-unsplash.jpg",
+    alt: "thisisengineering-raeng-aL2rxQhEfAM-unsplash",
+    author: "ThisisEngineering RAEng",
+    authorLink:
+      "https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink:
+      "https://unsplash.com/photos/aL2rxQhEfAM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/mike-hindle-urTBnMtWWYc-unsplash.jpg",
+    alt: "mike-hindle-urTBnMtWWYc-unsplash",
+    author: "Mike Hindle",
+    authorLink: "https://unsplash.com/@mikehindle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/urTBnMtWWYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },  
+  {
+    src: "/assets/images/artur-voznenko-lPvI0S403Mg-unsplash.jpg",
+    alt: "artur-voznenko-lPvI0S403Mg-unsplash",
+    author: "Artur Voznenko",
+    authorLink: "https://unsplash.com/@voznenko_artur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/lPvI0S403Mg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/logan-weaver-lgnwvr-u4vvzLElyF0-unsplash.jpg",
+    alt: "logan-weaver-lgnwvr-u4vvzLElyF0-unsplash",
+    author: "LOGAN WEAVER | @LGNWVR",
+    authorLink: "https://unsplash.com/@lgnwvr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/u4vvzLElyF0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/mika-baumeister-ufEolQ65luE-unsplash.jpg",
+    alt: "mika-baumeister-ufEolQ65luE-unsplash",
+    author: "Mika Baumeister",
+    authorLink: "https://unsplash.com/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/ufEolQ65luE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/rob-lambert-9Q_pLLP_jmA-unsplash.jpg",
+    alt: "",
+    author: "Rob Lambert",
+    authorLink: "https://unsplash.com/@roblambertjr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/9Q_pLLP_jmA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/crystal-kwok-xD5SWy7hMbw-unsplash.jpg",
+    alt: "crystal-kwok-xD5SWy7hMbw-unsplash",
+    author: "Crystal Kwok",
+    authorLink: "https://unsplash.com/@spacexuan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/xD5SWy7hMbw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg",
+    alt: "cesar-carlevarino-aragon-NL_DF0Klepc-unsplash",
+    author: "Cesar Carlevarino Aragon",
+    authorLink: "https://unsplash.com/@carlevarino?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/NL_DF0Klepc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+  {
+    src: "/assets/images/vladislav-glukhotko-RBwk0EcQ1bs-unsplash.jpg",
+    alt: "vladislav-glukhotko-RBwk0EcQ1bs-unsplash",
+    author: "Vladislav Glukhotko",
+    authorLink: "https://unsplash.com/@azzurobudgie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    imageLink: "https://unsplash.com/photos/RBwk0EcQ1bs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+  },
+];

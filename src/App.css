@@ -43,6 +43,7 @@ a {
   text-decoration: none;
   display: inline-block;
   position: relative;
+  color:#758D97;
 }
 
 a::after {
@@ -62,6 +63,10 @@ a::after {
 a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+a:active {
+  color: #758D97;
 }
 
 a:visited {
