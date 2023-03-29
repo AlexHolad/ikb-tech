@@ -24,6 +24,7 @@ export default function Navbar({ nav, handleClickScroll}) {
               <li
                 key={section}
                 onClick={() => handleClickScroll(sectionsList[i])}
+                className="nav-li"
               >
                 <p className="hover-underline-animation" onClick={handleShowNavbar}>{section}</p>
               </li>

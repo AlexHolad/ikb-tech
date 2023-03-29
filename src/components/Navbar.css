@@ -153,4 +153,16 @@ img {
     margin-right: unset;
     margin-top: 22px;
   }
+
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 26px;
+  }
+  
+  .nav-elements ul li p {
+    font-size: calc(15px + 0.390625vw);
+    font-weight: 400;
+    cursor: pointer;
+    color: #758D97;
+    text-decoration: none;
+  }
 }
