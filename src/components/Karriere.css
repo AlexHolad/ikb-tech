@@ -27,6 +27,7 @@
     .karriere-img-container {
         width: 100vw;
         height: 50vh;
+        justify-content: center;
     }
 
     .karriere-img {
