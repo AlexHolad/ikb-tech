@@ -5,13 +5,13 @@ import "./Datenschutz.css"
 function Datenschutz() {
   return (
     <div className="datenschutz-container">
-      <h1>Datenschutzerklärung</h1>
+      <div className="datenschutz-h1">Datenschutzerklärung</div>
       <p>
         Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
         EU-Datenschutzgrundverordnung (DSGVO), ist:
       </p>
       <p>Alexander Kappes</p>
-      <h2>Ihre Betroffenenrechte</h2>
+      <div className='datenschutz-h2'>Ihre Betroffenenrechte</div>
       <p>
         Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten
         können Sie jederzeit folgende Rechte ausüben:
@@ -56,12 +56,11 @@ function Datenschutz() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html
+          Link
         </a>
-        .
       </p>
       <p></p>
-      <h2>Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
+      <div className='datenschutz-h2'>Verwendung von Scriptbibliotheken (Google Webfonts)</div>
       <p>
         Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend
         darzustellen, verwenden wir auf dieser Website „Google Web Fonts“ der
@@ -88,7 +87,7 @@ function Datenschutz() {
         .
       </p>
       <p></p>
-      <h2>SSL-Verschlüsselung</h2>
+      <div className='datenschutz-h2'>SSL-Verschlüsselung</div>
       <p>
         Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden
         wir dem aktuellen Stand der Technik entsprechende
@@ -96,8 +95,8 @@ function Datenschutz() {
       </p>
       <p></p>
       <hr />
-      <h2>Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO</h2>
-      <h3>Einzelfallbezogenes Widerspruchsrecht</h3>
+      <div className='datenschutz-h2'>Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO</div>
+      <>Einzelfallbezogenes Widerspruchsrecht</>
       <p>
         Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen
         Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender
@@ -113,14 +112,14 @@ function Datenschutz() {
         Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung,
         Ausübung oder Verteidigung von Rechtsansprüchen.
       </p>
-      <h3>Empfänger eines Widerspruchs</h3>
+      <h3 className="datenschutz-h3">Empfänger eines Widerspruchs</h3>
       <p>
         Alexander Kappes
         <br />
         Angerlochstr. 55, 80997 München
       </p>
       <hr />
-      <h2>Änderung unserer Datenschutzbestimmungen</h2>
+      <div className='datenschutz-h2'>Änderung unserer Datenschutzbestimmungen</div>
       <p>
         Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie
         stets den aktuellen rechtlichen Anforderungen entspricht oder um
@@ -128,7 +127,7 @@ function Datenschutz() {
         z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt
         dann die neue Datenschutzerklärung.
       </p>
-      <h2>Fragen an den Datenschutzbeauftragten</h2>
+      <div className='datenschutz-h2'>Fragen an den Datenschutzbeauftragten</div>
       <p>
         Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine
         E-Mail oder wenden Sie sich direkt an die für den Datenschutz

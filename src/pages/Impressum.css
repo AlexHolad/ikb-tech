@@ -1,0 +1,33 @@
+.impressum-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding: 40px 50px;
+}
+
+.impressum-h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #293345;
+}
+
+.impressum-h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #293345;
+}
+
+.impressum-h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #293345;
+}
+
+
+@media (max-width: 525px) {
+    .impressum-container {
+        gap: 10px;
+        padding: 20px 20px;
+    }
+}

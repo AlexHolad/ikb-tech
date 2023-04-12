@@ -9,14 +9,14 @@ function Footer({ footer }) {
   return (
     <div className="footer-container">
       <div className="footer-blocks-container">
-        {blocksInformation.map((block) => {
+        {blocksInformation.map((block, i) => {
           return (
-            <div className="footer-block-container">
+            <div className="footer-block-container" key={block.headline}>
               <div className="footer-block-header">{block.headline}</div>
               <ul className="footer-block-list">
-                {block.elList.map((item) => {
+                {block.elList.map((item, i) => {
                   return (
-                    <li className="footer-block-part">
+                    <li className="footer-block-part" key={item.alt}>
                       <img
                         className="footer-block-part-icon"
                         src={item.icon}
