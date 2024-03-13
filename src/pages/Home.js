@@ -32,12 +32,12 @@ const Home = ({data}) => {
             <Main main={data.sectionMain}/>
             <Quote text= {data.sectionLeistungen.quote}/>
             <Leistungen leistungen={data.sectionLeistungen} id="leistungen">Leistungen</Leistungen>
-            <Quote text= {data.sectionKunden.quote}/>
+            <Zahlen zahlen={data.zahlen}/>
             <Kunden kunden={data.sectionKunden} id='kunden'/>
             <Schwerpunkte schwerpunkte={data.sectionSchwerpunkte} id='schwerpunkte'/>
             <Quote text= {data.sectionProgrammen.quote}/>
             <Programmen programmen={data.sectionProgrammen} id='programmen'/>
-            <Zahlen zahlen={data.zahlen}/>
+            <Quote text= {data.sectionKontakt.quote}/>
             <Kontakt kontakt={data.sectionKontakt} id='kontakt'/>
             <Quote text= {data.sectionKarriere.quote}/>
             <Karriere karriere={data.sectionKarriere} handleClickScroll={handleClickScroll} id='karriere'/>

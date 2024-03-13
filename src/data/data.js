@@ -73,11 +73,11 @@ export const data = {
   },
   sectionKunden: {
     quote:
-      "“Kundenzufriedenheit steht auf dem Ersten Platz in unserer Unternehmensphilosophie und bildet die Basis für eine langfristige und erfolgreiche Zusammenarbeit mit unseren Kunden.”",
+      "",
     category: "Referenzen",
     headline: "Weitere Kunde die uns vertrauen",
     text:
-      "Mauris porta odio nisi, ut ultrices ligula venenatis quis. Quisque a ligula eu ex scelerisque eleifend ut sed risus. Mauris cursus non orci sed aliquet. Maecenas ipsum urna, pulvinar quis lacus sit amet, tempor pharetra diam.",
+    "Kundenzufriedenheit steht auf dem Ersten Platz in unserer Unternehmensphilosophie und bildet die Basis für eine langfristige und erfolgreiche Zusammenarbeit mit unseren Kunden.",
     kundenLogos: [
       {
         title: "maserati",
@@ -236,9 +236,10 @@ export const data = {
     },
   ],
   sectionKontakt: {
+    quote: "“Wir würden uns freuen Sie von den Vorteilen der IKB TECH zu überzeugen und freuen uns von Ihnen zu hören. Wenn Sie als Bewerber, Zulieferer oder Neukunde an einer Zusammenarbeit interessiert sind, nehmen Sie bitte Kontakt mit uns auf.”",
     category: "Kontakt",
     headline:
-      "Wir würden uns freuen Sie von den Vorteilen der IKB TECH zu überzeugen und freuen uns von Ihnen zu hören",
+      "Für Ihre Fragen stehen wir Ihnen gern zur Verfügung.",
     contactTypes: [
       {
         icon: "/assets/icons/phone.png",
@@ -248,7 +249,7 @@ export const data = {
       {
         icon: "/assets/icons/email.png",
         attr: "email",
-        text: "alex878@gmail.com",
+        text: "ikb.kappes@gmail.com",
       },
       {
         icon: "/assets/icons/post.png",
@@ -283,7 +284,7 @@ export const data = {
           {
             icon: "/assets/icons/address.png",
             alt: "address-icon",
-            text: "IKB-TECH Eisnergutbogen Str.35 80639 München",
+            text: "IKB-TECH Angerlohstr. 55 80997 München",
           },
         ],
       },
@@ -293,7 +294,7 @@ export const data = {
           {
             icon: "/assets/icons/phone.png",
             alt: "phone-icon",
-            text: "089-88905832",
+            text: "01629334162",
           },
         ],
       },
@@ -303,7 +304,7 @@ export const data = {
           {
             icon: "/assets/icons/email.png",
             alt: "email-icon",
-            text: "ikb-tech@gmail.com",
+            text: "ikb.kappes@gmail.com",
           },
         ],
       },
@@ -331,7 +332,7 @@ export const data = {
         ],
       },
     ],
-    copyright: "© 2023 IKB-TECH  ALLE RECHTE VORBEHALTEN",
+    copyright: "© 2024 IKB-TECH  ALLE RECHTE VORBEHALTEN",
   },
 };
 
