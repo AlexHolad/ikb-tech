@@ -60,12 +60,16 @@ export const data = {
         icon: "/assets/icons/leistungen/sun-elevation.png",
       },
       {
+        title: "Dokumentation",
+        icon: "/assets/icons/leistungen/course-assign.png",
+      },
+      {
         title: "Prototypenbau",
         icon: "/assets/icons/leistungen/3d-printer.png",
       },
       {
-        title: "Dokumentation",
-        icon: "/assets/icons/leistungen/course-assign.png",
+        title:"Serienbetreung",
+        icon: "/assets/icons/leistungen/3d-printer.png",
       },
     ],
     proposal: "",
@@ -115,6 +119,18 @@ export const data = {
         title: "bmw",
         logo: "/assets/logos/kunden/bmw-logo.svg",
       },
+      {
+        title: "LSP",
+        logo: "/assets/logos/kunden/lsp-logo.jpg",
+      },
+      {
+        title: "Silver Atena",
+        logo: "/assets/logos/kunden/silver-atena-logo.png",
+      },
+      {
+        title: "Volvo",
+        logo: "/assets/logos/kunden/volvo-logo.svg",
+      },
     ],
     proposal: "",
     linkId: "",
@@ -135,7 +151,7 @@ export const data = {
       {
         img: "/assets/images/artur-voznenko-lPvI0S403Mg-unsplash.jpg",
         attr: "artur-voznenko-lPvI0S403Mg-unsplash",
-        services: ["Flugzeugbau"],
+        services: ["Flugzeugbau","Aerobus"],
       },
       {
         img: "/assets/images/logan-weaver-lgnwvr-u4vvzLElyF0-unsplash.jpg",
@@ -150,7 +166,7 @@ export const data = {
       {
         img: "/assets/images/mika-baumeister-ufEolQ65luE-unsplash.jpg",
         attr: "mika-baumeister-ufEolQ65luE-unsplash",
-        services: ["Radfahrzeuge", "Kettenfahrzeuge"],
+        services: ["Radfahrzeuge", "Kettenfahrzeuge", "KMW"],
       },
       {
         img: "/assets/images/cesar-carlevarino-aragon-NL_DF0Klepc-unsplash.jpg",
@@ -182,7 +198,7 @@ export const data = {
     category: "Programmen",
     headline: "Wir arbeiten mit moderne CAD Software",
     text: [
-      "Pro/Engineer Wildfiere 2/3/4",
+      "PTC Creo 6, 7, 8, 9",
       "CATIA V4/V5",
       "SolidWorks",
       "Solid Edge",
